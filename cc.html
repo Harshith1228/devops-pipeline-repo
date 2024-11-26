@@ -132,8 +132,8 @@
         /* Hover Information */
         .tech-info {
             position: absolute;
-            bottom: -5px;
-            left: 50%;
+            bottom: 0px;
+            left: 70%;
             transform: translateX(-50%);
             background-color: #2980b9;
             color: white;
@@ -320,7 +320,7 @@
         <!-- About the Project Section -->
         <section id="about">
             <h2>About the Project</h2>
-            <p>This project automates the deployment of applications through a Continuous Integration/Continuous Deployment (CI/CD) pipeline using AWS services. It streamlines the deployment process, improves development workflows, and ensures seamless delivery from commit to production.</p>
+            <p>A streamlined deployment pipeline is implemented, automating the process of pulling updates from GitHub, testing changes, and deploying static website files to AWS S3. The solution ensures real-time updates, scalability, and global accessibility for hosted content. It leverages Jenkins, GitHub webhooks, and AWS services for efficient and reliable delivery.</p>
         </section>
 
         <!-- Technologies Used Section -->
@@ -340,15 +340,15 @@
                     </div>
                 </li>
                 <li>
-                    AWS CodePipeline
+                    GitHub repository
                     <div class="tech-info">
-                        AWS CodePipeline is a CI/CD service for automating the build, test, and deploy phases of your release process.
+                        Github repository is a file version keeping software that keeps track of all the versions of the file so far.
                     </div>
                 </li>
                 <li>
-                    AWS CodeCommit
+                    AWS S3
                     <div class="tech-info">
-                        AWS CodeCommit is a fully managed source control service that helps you to host secure Git repositories.
+                        AWS S3 is utilized in the project as the deployment and hosting platform, leveraging Amazon S3 for storing and serving the static website content globally with high scalability and availability.
                     </div>
                 </li>
             </ul>
